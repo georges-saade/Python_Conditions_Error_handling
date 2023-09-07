@@ -16,10 +16,17 @@ class error_handling(Enum):
     GET_LENGTH_ERROR="Error returning length from dataframe"
     GET_BLANK_ERROR="Error returning blanks from dataframe"
     CON_CLOSE_ERROR="DB closing connection error"
-    
+
 class file_types(Enum):
     SQL="SQL"
     EXCEL="Excel"
     CSV="CSV"
+
+class function_types(Enum):
+    REMOVE_DUPLICATES="Remove_duplicates"
+    REMOVE_NULLS="Remove_nulls"
+    GET_SHAPE="Get_shape"
+    GET_LENGTH="Get_length"
+    GET_BLANKS="Get_blank"
 
 
